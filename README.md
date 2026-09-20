@@ -5,8 +5,9 @@ A public laboratory for testing TypeSafe JEV as a bounded tool planner in a Gent
 ## Run
 
 ```bash
-npm test
-npm start
+pnpm install
+pnpm test
+pnpm start
 ```
 
 Open <http://localhost:8787>.
@@ -30,7 +31,7 @@ Only these synthetic, read-only tools are available: `project_summary`, `list_fi
 5. Return summaries, not raw repository content, to the primary model.
 6. Record latency, tokens, confidence, unnecessary calls, and completion quality.
 
-The repository is intentionally synthetic and public so Alan and the Gentle Shell team can test the flow safely with their own AI tooling.
+The repository is intentionally synthetic and public so Alan and the Gentle Shell team can test the flow safely with their own AI tooling. See [TESTING.md](TESTING.md) for the complete experiment log and reproducible commands.
 
 ## Security
 
