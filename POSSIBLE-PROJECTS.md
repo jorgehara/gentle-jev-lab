@@ -39,3 +39,20 @@ Implementation principles:
 - Report proxy savings honestly; do not claim token savings without direct usage data.
 
 Reference: https://github.com/Bodila51/grok-bot-jev
+
+## 3. Local ride app + JEV
+
+A future Uber-like app for the local town, with JEV-assisted mobile workflows inspired by `droidrun/mobile-jev`.
+
+Current status: requested idea, requirements not defined yet. Do not implement product behavior until we capture the local operating model, drivers, riders, service area, pricing, dispatch, payments, safety, privacy, and regulatory requirements.
+
+Potential later architecture:
+
+- rider and driver mobile/web flows;
+- dispatch and route state;
+- JEV choosing the next bounded mobile/UI action, never confirming a ride or payment by itself;
+- Gentle-style execution budgets, stop gates, verification, and traceability;
+- shadow-mode experiments before active automation;
+- local synthetic fixtures before connecting real devices or accounts.
+
+Reference: https://github.com/droidrun/mobile-jev
